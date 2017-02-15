@@ -12,3 +12,10 @@ form div + div {
 	/* espacement des blocs pour + d'aération */
     margin-top: 1em;
 }
+
+label {
+    /* Afin de s'assurer que toutes les étiquettes aient la même dimension et soient alignées correctement */
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+}
